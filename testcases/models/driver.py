@@ -6,7 +6,7 @@ def browser():
     # driver = webdriver.Chrome()
     host = "http://192.168.52.43"
     # host = 'localhost' # 运行主机（默认：127.0.0.1）
-    port = '5556' # 端口号（默认：4444）
+    port = '5555' # 端口号（默认：4444）
     dc = {'browserName':'chrome'} # 指定浏览器('chrome','firefox')
     url = host + ':' + port + '/wd/hub'
     # print(url)

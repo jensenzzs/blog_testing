@@ -10,4 +10,4 @@ rem 本机启动selenium server hub
 start java -jar ./driver/selenium-server-standalone-3.4.0.jar -role hub
 
 rem 本机启动selenium server node
-rem start java -jar ./driver/selenium-server-standalone-3.4.0.jar -role node -port 5555
+start java -jar ./driver/selenium-server-standalone-3.4.0.jar -role node -port 5555
